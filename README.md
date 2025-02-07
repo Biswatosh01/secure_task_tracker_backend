@@ -92,8 +92,8 @@ git push origin main
 Body:
 ```json
 {
-  "username": "john_doe",
-  "password": "password123"
+  "username": "testuser",
+  "password": "testuser"
 }
 ```
 
@@ -101,8 +101,8 @@ Body:
 Body:
 ```json
 {
-  "username": "john_doe",
-  "password": "password123"
+  "username": "testuser",
+  "password": "testuser"
 }
 ```
 
