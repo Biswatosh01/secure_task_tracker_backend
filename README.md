@@ -1,6 +1,6 @@
-# 🚀 Fast Secure Task Tracker - Backend (NestJS)
+# 🚀 Fast Secure Task Tracker - Backend (Nest.js with MongoDB)
 
-A secure and efficient backend API for managing tasks, built with **NestJS** and **MongoDB**. This API handles user authentication and task management with JWT-based security.
+A secure and efficient backend API for managing tasks, built with **Nest.js** and **MongoDB**. This API handles user authentication and task management with JWT-based security.
 
 ## 📚 Table of Contents
 - [Project Overview](#project-overview)
@@ -19,7 +19,7 @@ This backend API supports functionalities for:
 - **Task Management**: Create and fetch tasks for authenticated users
 
 ## 🛠️ Tech Stack
-- **Framework:** NestJS (Node.js + TypeScript)
+- **Framework:** Nest.js (Node.js + TypeScript)
 - **Database:** MongoDB (using Mongoose)
 - **Authentication:** JWT & Passport
 - **Deployment:** Render (or Railway)
