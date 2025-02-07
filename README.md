@@ -10,7 +10,6 @@ A secure and efficient backend API for managing tasks, built with **Nest.js** an
 - [Run Locally](#run-locally)
 - [Deployment](#deployment)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## 📋 Project Overview
