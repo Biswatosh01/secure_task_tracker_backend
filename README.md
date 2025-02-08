@@ -5,17 +5,17 @@ A secure and efficient backend API for managing tasks, built with **Nest.js** an
 ## 🚀 **Deployed Backend URL**
 
 🌐 **[Backend Live on Render](https://secure-task-tracker-backend.onrender.com)**  
-You can interact with the API using tools like **Thunder Client**, **Postman**, or through the **frontend** [https://secure-task-tracker.netlify.app].
+You can interact with the API using tools like **Thunder Client**, **Postman**, or through the **[frontend](https://secure-task-tracker.netlify.app)**.
 
 ## 📚 Table of Contents
-- [Project Overview](#project-overview)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Environment Variables](#environment-variables)
-- [Run Locally](#run-locally)
-- [Deployment](#deployment)
-- [API Endpoints](#api-endpoints)
-- [License](#license)
+- [Project Overview](#-project-overview)
+- [Tech Stack](#%EF%B8%8F-tech-stack)
+- [Getting Started](#-getting-started)
+- [Environment Variables](#%EF%B8%8F-environment-variables)
+- [Run Locally](#-run-locally)
+- [Deployment](#-deployment-render)
+- [API Endpoints](#-api-endpoints)
+- [License](#-license)
 
 ## 📋 Project Overview
 This backend API supports functionalities for:
