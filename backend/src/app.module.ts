@@ -6,14 +6,14 @@ import { TasksModule } from './tasks/tasks.module';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true }),
+    ConfigModule.forRoot({ isGlobal: true }), // Load environment variables from .env file
     MongooseModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
       useFactory: (configService: ConfigService) => ({
-        uri: configService.get<string>('MONGO_URI', ''),
+        uri: configService.get<string>('MONGO_URI', ''), // MongoDB Connection
         ssl: true,
-        tlsInsecure: true, // Use only for development
+        // tlsInsecure: true, // Use only for development
       }),
     }),
     AuthModule,
