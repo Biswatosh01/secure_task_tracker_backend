@@ -1,6 +1,6 @@
-# 🚀 Fast Secure Task Tracker - Backend (NestJS)
+# 🚀 Fast Secure Task Tracker - Backend (Nest.js with MongoDB)
 
-A secure and efficient backend API for managing tasks, built with **NestJS** and **MongoDB**. This API handles user authentication and task management with JWT-based security.
+A secure and efficient backend API for managing tasks, built with **Nest.js** and **MongoDB**. This API handles user authentication and task management with JWT-based security.
 
 ## 📚 Table of Contents
 - [Project Overview](#project-overview)
@@ -10,7 +10,6 @@ A secure and efficient backend API for managing tasks, built with **NestJS** and
 - [Run Locally](#run-locally)
 - [Deployment](#deployment)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## 📋 Project Overview
@@ -19,7 +18,7 @@ This backend API supports functionalities for:
 - **Task Management**: Create and fetch tasks for authenticated users
 
 ## 🛠️ Tech Stack
-- **Framework:** NestJS (Node.js + TypeScript)
+- **Framework:** Nest.js (Node.js + TypeScript)
 - **Database:** MongoDB (using Mongoose)
 - **Authentication:** JWT & Passport
 - **Deployment:** Render (or Railway)
@@ -92,8 +91,8 @@ git push origin main
 Body:
 ```json
 {
-  "username": "john_doe",
-  "password": "password123"
+  "username": "testuser",
+  "password": "testuser"
 }
 ```
 
@@ -101,8 +100,8 @@ Body:
 Body:
 ```json
 {
-  "username": "john_doe",
-  "password": "password123"
+  "username": "testuser",
+  "password": "testuser"
 }
 ```
 
@@ -147,13 +146,6 @@ Response:
   "userId": "67890"
 }
 ```
-
-## 🤝 Contributing
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/awesome-feature`
-3. Commit your changes: `git commit -m 'Add awesome feature'`
-4. Push to the branch: `git push origin feature/awesome-feature`
-5. Open a Pull Request 🚀
 
 ## 📜 License
 This project is licensed under the MIT License.
