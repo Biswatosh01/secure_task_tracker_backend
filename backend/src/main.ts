@@ -7,9 +7,9 @@ async function bootstrap() {
   // Enable CORS to allow requests from the frontend
   app.enableCors({
     origin: [
-      'http://localhost:8080',
-      'http://localhost:3000',                        // Local backend
-      'http://localhost:5000',                        // For serve -s dist
+      'http://localhost:8080',  // Local backend
+      'http://localhost:3000',  // For serve -s dist                      
+      'http://localhost:5000',                        
       'https://secure-task-tracker.netlify.app'
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],

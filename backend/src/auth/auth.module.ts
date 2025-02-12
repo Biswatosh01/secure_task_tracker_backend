@@ -5,8 +5,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { AuthService } from './auth.service';
 import { AuthController } from './auth.controller';
 import { User, UserSchema } from './user.schema';
-import { JwtStrategy } from './jwt.strategy';      // ✅ Import JwtStrategy
-import { JwtAuthGuard } from './jwt-auth.guard';   // ✅ Import JwtAuthGuard
+import { JwtStrategy } from './jwt.strategy';      // Import JwtStrategy
+import { JwtAuthGuard } from './jwt-auth.guard';   // Import JwtAuthGuard
 
 @Module({
   imports: [
@@ -17,7 +17,7 @@ import { JwtAuthGuard } from './jwt-auth.guard';   // ✅ Import JwtAuthGuard
     }),
     MongooseModule.forFeature([{ name: User.name, schema: UserSchema }]),
   ],
-  providers: [AuthService, JwtStrategy, JwtAuthGuard],  // ✅ Register JwtStrategy & JwtAuthGuard
+  providers: [AuthService, JwtStrategy, JwtAuthGuard],  // Register JwtStrategy & JwtAuthGuard
   controllers: [AuthController],
   exports: [AuthService],
 })
